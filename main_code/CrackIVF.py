@@ -480,7 +480,7 @@ class CrackIVF():
                 # get local region around the new cracks
                 
                 print(f"qid={self.total_batches*len(queries)} cracks={self.index.nlist} - IN COMMIT_REORG")
-                start_get_local_region 
+                start_get_local_region = time.perf_counter()
                 if DEBUG and self.total_bad_buffered_cracks > 0: print(f"BEFORE_LOCAL_PARTITIONS") # FOR DEBUG
 
                 local_partitions = np.where(self.actual_assignment_histogram != self.assignment_histogram)[0]
