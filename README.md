@@ -1,5 +1,5 @@
 # vdb-crack
- 
+
 # setup enviroment
 
 We extended faiss with a few functions to add mutability on IVFFlat
